@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2874f0;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  flex-direction: row;
+  width: 100vw;
+  position: sticky;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 10px;
+  color: white;
+  margin: 0px 20px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+header nav ul li img {
+  margin-bottom: -8px;
+}
+
+#btn-login {
+  padding: 8px 40px;
+  align-self: center;
+  border-radius: 0px;
+  font-size: 14px;
+  background-color: white;
+  border: none;
+  color: blue;
+}
+
+#search-box {
+  width: 500px;
+  padding: 10px;
+  border: none;
+}
+
+/* .container {
+  background-color: wheat;
+  height: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.top-list {
+  display: flex;
+  width: 100vw;
+  background-color: whitesmoke;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  padding: 17px 30px;
+  height: 15vh;
+  box-shadow: 0px 1px 11px #888;
+  align-items: center;
+}
+
+.item {
+  text-align: center;
+  font-weight: 500;
+}
+
+.main-img img {
+  height: 45vh;
+  width: 100vw;
+  padding: 14px 8px;
+  box-sizing: border-box;
+}
+
+.deal-of-day .item1 {
+  grid-area: timer;
+}
+.deal-of-day .item2 {
+  grid-area: first;
+}
+.deal-of-day .item3 {
+  grid-area: elect;
+}
+.deal-of-day {
+  margin: 0px 8px;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-areas:
+    "timer timer timer timer timer timer elect"
+    "first first first first first first elect";
+  grid-gap: 4px;
+}
+
+.deal-item {
+  padding: 10px 15px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.deal-of-day .item1 {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-items: center;
+  box-shadow: 0px 0px 2px #888;
+  color: black;
+  justify-content: space-between;
+}
+
+#view-all-btn {
+  padding: 10px 16px;
+  background-color: #2874f0;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.Rs-green {
+  color: rgb(23, 199, 23);
+}
+
+.deal-of-day .item2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 0px 2px #888;
+}
+
+.deal-item > div {
+  flex-basis: 14%;
+}
+
+.deal-of-day .item3 {
+  padding: 0px;
+  box-shadow: 0px 0px 2px #888;
+}
+
+.deal-of-day .item3 img {
+  width: 220px;
+  height: 100%;
+  padding: 2px 2px 2px 0px;
+}
